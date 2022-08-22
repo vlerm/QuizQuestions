@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QuizQuestions" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FirstGradient" translatesAutoresizingMaskIntoConstraints="NO" id="PbH-O4-CtA" userLabel="First Gradient">
+                                <rect key="frame" x="0.0" y="-1" width="414" height="900.00000000000011"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cloud" translatesAutoresizingMaskIntoConstraints="NO" id="fVR-aq-PyP" userLabel="Cloud">
+                                <rect key="frame" x="-43" y="396" width="500" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="500" id="8e6-gW-3cH"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="500" id="Pad-KP-0Vr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SecondGradient" translatesAutoresizingMaskIntoConstraints="NO" id="uvI-yu-UeC">
+                                <rect key="frame" x="0.0" y="-2" width="414" height="900"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="I0a-8J-ff1"/>
+                                    <constraint firstAttribute="height" constant="900" id="zLt-RA-H59"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Phone" translatesAutoresizingMaskIntoConstraints="NO" id="P1e-cE-Lw6" userLabel="phones">
+                                <rect key="frame" x="89.666666666666686" y="323.66666666666669" width="235" height="249.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="249" id="lZO-jo-Tkr"/>
+                                    <constraint firstAttribute="width" constant="235" id="v5L-GK-r8x"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8E-KQ-HVp">
+                                <rect key="frame" x="36" y="807" width="342" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29.299999237060547"/>
+                                <color key="textColor" red="1" green="0.98823529409999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Чтобы задать следующий вопрос необходимо встряхнуть телефон или нажать в центр экрана" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Sq-4k-C8P">
+                                <rect key="frame" x="87" y="158.66666666666666" width="240" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="4Om-ZQ-E7u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.66274509800000003" green="0.71764705880000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tem-i9-Bp7">
+                                <rect key="frame" x="191.66666666666666" y="432.66666666666669" width="30.666666666666657" height="31"/>
+                                <color key="tintColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="•"/>
+                                <connections>
+                                    <action selector="showNextQuestion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rsW-dH-ZRr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="T8E-KQ-HVp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="1Cs-xl-sKo"/>
+                            <constraint firstItem="uvI-yu-UeC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="33F-CF-Qmj"/>
+                            <constraint firstItem="fVR-aq-PyP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5qd-gU-koM"/>
+                            <constraint firstItem="tem-i9-Bp7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EEg-Wc-cIw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T8E-KQ-HVp" secondAttribute="trailing" constant="36" id="HlP-xL-N6Y"/>
+                            <constraint firstAttribute="bottom" secondItem="fVR-aq-PyP" secondAttribute="bottom" id="KY7-jh-2cC"/>
+                            <constraint firstItem="P1e-cE-Lw6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LpA-sg-QE8"/>
+                            <constraint firstItem="0Sq-4k-C8P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="O9I-dK-emQ"/>
+                            <constraint firstItem="0Sq-4k-C8P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OpL-Ol-EM3"/>
+                            <constraint firstItem="P1e-cE-Lw6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QSW-e6-VF3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Sq-4k-C8P" secondAttribute="trailing" constant="87" id="bFi-6a-U1U"/>
+                            <constraint firstItem="tem-i9-Bp7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gqT-kC-eDv"/>
+                            <constraint firstItem="uvI-yu-UeC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pga-1q-MoT"/>
+                            <constraint firstItem="P1e-cE-Lw6" firstAttribute="top" secondItem="0Sq-4k-C8P" secondAttribute="bottom" constant="75" id="ulR-Bo-aiv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="T8E-KQ-HVp" secondAttribute="bottom" constant="20" id="wa4-YJ-bzh"/>
+                            <constraint firstItem="T8E-KQ-HVp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zfB-GH-UXE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gradientImageView" destination="uvI-yu-UeC" id="hh5-M1-6It"/>
+                        <outlet property="questionsLabel" destination="T8E-KQ-HVp" id="q7x-ad-nfW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92.753623188405811" y="62.946428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cloud" width="375" height="403.66665649414062"/>
+        <image name="FirstGradient" width="375" height="812"/>
+        <image name="Phone" width="235" height="249"/>
+        <image name="SecondGradient" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

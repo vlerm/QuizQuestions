@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F251D4E28B30A6A0045B89A /* questions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F251D4D28B30A6A0045B89A /* questions.txt */; };
+		4F251D5028B30D6E0045B89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F251D4F28B30D6E0045B89A /* Main.storyboard */; };
 		4F4A880427C986ED001B0991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A880327C986ED001B0991 /* AppDelegate.swift */; };
 		4F4A880627C986ED001B0991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A880527C986ED001B0991 /* SceneDelegate.swift */; };
 		4F4A880827C986ED001B0991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4A880727C986ED001B0991 /* ViewController.swift */; };
-		4F4A880B27C986ED001B0991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4A880927C986ED001B0991 /* Main.storyboard */; };
 		4F4A880D27C986F0001B0991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4A880C27C986F0001B0991 /* Assets.xcassets */; };
 		4F4A881027C986F0001B0991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4A880E27C986F0001B0991 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F4A880027C986ED001B0991 /* Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F251D4D28B30A6A0045B89A /* questions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questions.txt; sourceTree = "<group>"; };
+		4F251D4F28B30D6E0045B89A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4F4A880027C986ED001B0991 /* QuizQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4A880327C986ED001B0991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F4A880527C986ED001B0991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4F4A880727C986ED001B0991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F4A880A27C986ED001B0991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F4A880C27C986F0001B0991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F4A880F27C986F0001B0991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F4A881127C986F0001B0991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +42,7 @@
 		4F4A87F727C986ED001B0991 = {
 			isa = PBXGroup;
 			children = (
-				4F4A880227C986ED001B0991 /* Alert */,
+				4F4A880227C986ED001B0991 /* QuizQuestions */,
 				4F4A880127C986ED001B0991 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,32 @@
 		4F4A880127C986ED001B0991 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F4A880027C986ED001B0991 /* Alert.app */,
+				4F4A880027C986ED001B0991 /* QuizQuestions.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F4A880227C986ED001B0991 /* Alert */ = {
+		4F4A880227C986ED001B0991 /* QuizQuestions */ = {
 			isa = PBXGroup;
 			children = (
 				4F4A880327C986ED001B0991 /* AppDelegate.swift */,
 				4F4A880527C986ED001B0991 /* SceneDelegate.swift */,
 				4F4A880727C986ED001B0991 /* ViewController.swift */,
-				4F4A880927C986ED001B0991 /* Main.storyboard */,
-				4F4A880C27C986F0001B0991 /* Assets.xcassets */,
+				4F251D4F28B30D6E0045B89A /* Main.storyboard */,
 				4F4A880E27C986F0001B0991 /* LaunchScreen.storyboard */,
+				4F4A880C27C986F0001B0991 /* Assets.xcassets */,
 				4F4A881127C986F0001B0991 /* Info.plist */,
+				4F251D4D28B30A6A0045B89A /* questions.txt */,
 			);
-			path = Alert;
+			path = QuizQuestions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F4A87FF27C986ED001B0991 /* Alert */ = {
+		4F4A87FF27C986ED001B0991 /* QuizQuestions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F4A881427C986F0001B0991 /* Build configuration list for PBXNativeTarget "Alert" */;
+			buildConfigurationList = 4F4A881427C986F0001B0991 /* Build configuration list for PBXNativeTarget "QuizQuestions" */;
 			buildPhases = (
 				4F4A87FC27C986ED001B0991 /* Sources */,
 				4F4A87FD27C986ED001B0991 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Alert;
+			name = QuizQuestions;
 			productName = Alert;
-			productReference = 4F4A880027C986ED001B0991 /* Alert.app */;
+			productReference = 4F4A880027C986ED001B0991 /* QuizQuestions.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4F4A87FB27C986ED001B0991 /* Build configuration list for PBXProject "Alert" */;
+			buildConfigurationList = 4F4A87FB27C986ED001B0991 /* Build configuration list for PBXProject "QuizQuestions" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F4A87FF27C986ED001B0991 /* Alert */,
+				4F4A87FF27C986ED001B0991 /* QuizQuestions */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F4A881027C986F0001B0991 /* LaunchScreen.storyboard in Resources */,
+				4F251D5028B30D6E0045B89A /* Main.storyboard in Resources */,
 				4F4A880D27C986F0001B0991 /* Assets.xcassets in Resources */,
-				4F4A880B27C986ED001B0991 /* Main.storyboard in Resources */,
+				4F251D4E28B30A6A0045B89A /* questions.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4F4A880927C986ED001B0991 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F4A880A27C986ED001B0991 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4F4A880E27C986F0001B0991 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,7 +286,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Alert/Info.plist;
+				INFOPLIST_FILE = QuizQuestions/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = erm.Alert;
+				PRODUCT_BUNDLE_IDENTIFIER = erm.QuizQuestions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Alert/Info.plist;
+				INFOPLIST_FILE = QuizQuestions/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +324,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = erm.Alert;
+				PRODUCT_BUNDLE_IDENTIFIER = erm.QuizQuestions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F4A87FB27C986ED001B0991 /* Build configuration list for PBXProject "Alert" */ = {
+		4F4A87FB27C986ED001B0991 /* Build configuration list for PBXProject "QuizQuestions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F4A881227C986F0001B0991 /* Debug */,
@@ -348,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F4A881427C986F0001B0991 /* Build configuration list for PBXNativeTarget "Alert" */ = {
+		4F4A881427C986F0001B0991 /* Build configuration list for PBXNativeTarget "QuizQuestions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F4A881527C986F0001B0991 /* Debug */,

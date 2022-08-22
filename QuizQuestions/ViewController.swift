@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Alert
+//  QuizQuestions
 //
 //  Created by Вадим Лавор on 26.02.22.
 //
